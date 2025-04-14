@@ -1,0 +1,92 @@
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 1 tuesday lecture +=+=+=+=+=+=+=+=
+logistics - 3
+
+intro to programming languages - 25
+	criteria for a language - 38
+	why so many languages - 42
+	paradigms - 46
+	what makes a langauge - 1.08
+	the compiler - 1.13
+		lexical analysis - 1.15
+		parsing / syntactic analysis - 1.17
++=+=+=+=+=+=+=+= 4 - 1 tuesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 3 thursday lecture +=+=+=+=+=+=+=+=
+continuing the compiler - 4
+	parsing - 5
+		diagramming a sentence - 6
+		parse tree - 9
+	semantic analysis - 13
+
+context free grammars CFG - 26
+	terminals, non-terminals, production / grammar rules / start non-terminal - 27
+		examples - 28
+
+derivations - 35
+	parse tree,, graphical representationof derivation process - 45
+	examples - 
+
+backus-naur form BNF - 1.01
+	grammar for arithmetic expressions - 1.03
+		example - 1.13
++=+=+=+=+=+=+=+= 4 - 3 thursday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 4 - 3 thursday discussion +=+=+=+=+=+=+=+=
+BNF examples - 4
+
+ambiguity,,, ambiguous grammar - 18
+	solving ambiguity in our initial BNF approach - 20
+	corrected version 1 - 35
++=+=+=+=+=+=+=+= 4 - 3 thursday discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 8 tuesday lecture +=+=+=+=+=+=+=+=
+ambiguous parse trees continued - 4
+	corrected version 2 - 17
+
+extended backus-naur form EBNF - 26
+	translation between EBNF -> BNF vice versa - 30
+
+introduction to GO - 51
++=+=+=+=+=+=+=+= 4 - 8 tuesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 10 thursday lecture +=+=+=+=+=+=+=+=
+go introduction - 3
+	scope - 4
+	common data types - 28
+
+interfaces - 55
+	concrete types - 56
+	abstract types - 57
+		interface - 1.02
+		empty interface - 1.09
+
+type extensions - 1.12
+type switches - 1.18
++=+=+=+=+=+=+=+= 4 - 10 thursday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 4 - 10 thursday discussion +=+=+=+=+=+=+=+=
+homework help - 3
+	q1. triangle testing - 7
+	q2. minimum finding & tests - 13
+	q3. NFA verification - 22
+	q4. intro to AST & depth test - 38
++=+=+=+=+=+=+=+= 4 - 10 thursday discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 15 tuesday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 4 - 15 tuesday lecture +=+=+=+=+=+=+=+=
