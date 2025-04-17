@@ -80,6 +80,7 @@ type switches - 1.18
 homework help - 3
 	q1. triangle testing - 7
 	q2. minimum finding & tests - 13
+		what the cover command does - 16
 	q3. NFA verification - 22
 	q4. intro to AST & depth test - 38
 +=+=+=+=+=+=+=+= 4 - 10 thursday discussion +=+=+=+=+=+=+=+=
@@ -88,5 +89,13 @@ homework help - 3
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 4 - 15 tuesday lecture +=+=+=+=+=+=+=+=
-
+type assertions - 3
+type switch - 8
+function values - 13
+closures / anonymous functions - 22
+	function returning anonymous function - 25
+lifetime & scope - 32
+	fibonacci example - 53
+defer - 1.02
+type embeds - 1.04
 +=+=+=+=+=+=+=+= 4 - 15 tuesday lecture +=+=+=+=+=+=+=+=
