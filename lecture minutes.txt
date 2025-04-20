@@ -78,9 +78,17 @@ type switches - 1.18
 
 +=+=+=+=+=+=+=+= 4 - 10 thursday discussion +=+=+=+=+=+=+=+=
 homework help - 3
+	you are only allowed to use GO syntax discussed in class - 3
+	its an auto grader, so... - 4
+
 	q1. triangle testing - 7
+		you need 100% coverage & pass - 10
 	q2. minimum finding & tests - 13
+		you need 100% coverage & pass - 14
 		what the cover command does - 16
+
+			HOW ASSIGNMENTS ARE GRADED,,, dont try to skimp out - 17
+
 	q3. NFA verification - 22
 	q4. intro to AST & depth test - 38
 +=+=+=+=+=+=+=+= 4 - 10 thursday discussion +=+=+=+=+=+=+=+=
@@ -99,3 +107,35 @@ lifetime & scope - 32
 defer - 1.02
 type embeds - 1.04
 +=+=+=+=+=+=+=+= 4 - 15 tuesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 17 thursday lecture +=+=+=+=+=+=+=+=
+benefits of types - 3
+type equivalence - 7
+	structural equivalence - 8
+	name equivalence - 11
+		explicit casting - 14
+
+	type checking - 15
+		static / compile time check - 16
+		runtime / dynamic check - 16
+
+parsing - 34
+	top down parsing - 34
+		recursive - 42
+		predictive - 43
+			ll(1) - 47
+			recursive descent parsing - 53
+			FIRST sets - 1.00
++=+=+=+=+=+=+=+= 4 - 17 thursday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 4 - 17 thursday discussion +=+=+=+=+=+=+=+=
+homework help
+	AST package covering for q4,q5 *important* - 5
+	q5. simplify - 5
+		AST continued - 15
+	q6. branch - 21
+	q7. rewrite - 31
++=+=+=+=+=+=+=+= 4 - 17 thursday discussion +=+=+=+=+=+=+=+=
