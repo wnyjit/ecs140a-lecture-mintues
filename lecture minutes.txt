@@ -87,7 +87,7 @@ homework help - 3
 		you need 100% coverage & pass - 14
 		what the cover command does - 16
 
-			HOW ASSIGNMENTS ARE GRADED,,, dont try to skimp out - 17
+			HOW ASSIGNMENTS ARE GRADED,,, hidden test cases so dont try to skimp out - 17
 
 	q3. NFA verification - 22
 	q4. intro to AST & depth test - 38
@@ -139,3 +139,74 @@ homework help
 	q6. branch - 21
 	q7. rewrite - 31
 +=+=+=+=+=+=+=+= 4 - 17 thursday discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 22 tuesday lecture +=+=+=+=+=+=+=+=
+continuing parsing - 3
+	follow sets - 3
+		examples - 5
+	parsing table - 21
+		filling the table - 22
+		examples - 35
+		code form,,, table driven predictive parser - 42
+	not all grammars are LL(1) - 46
+
+	optional readings,, most material is from this book - 49
+		what parser to go parser uses - 49
+
+	left recursion - 50
+		example , eliminating immediate left recursion - 51
+
+lisp lisp lisp lisp lisp lisp lisp - 1.02
+	lisp background of lisp - 1.02
+	on hw2, only use these - 1.04
+	s-expression,,, symbolic expression - 1.05
+		atoms and lists - 1.05
+		rules of evaluation - 1.06
+	into to clisp programming - 1.09
+		why you shouldnt use setq on the hw - 1.11
+		list lengths and equality - 1.18
+		quote - 1.21
++=+=+=+=+=+=+=+= 4 - 22 tuesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 24 thursday lecture +=+=+=+=+=+=+=+=
+quote continued - 3
+
+basic list operations: car, cdr, cons - 6
+
+	internal representation of lists - 21
+	dot notation - 25
+	more operations: list, append - 27
+
+user defined functions - 33
+
+predicate operations - 49
+
+logical operations - 53
+if construct - 56
+cond construct "I like it better" - 1.06
+
+let construct - 1.20
++=+=+=+=+=+=+=+= 4 - 24 thursday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 4 - 24 thursday discussion +=+=+=+=+=+=+=+=
+let construct - 3
+let * construct - 12
+
+practice exercise - 16
+
+Delay or force evalutation: eval, apply, funcall - 20
+	apply & funcall - 43
++=+=+=+=+=+=+=+= 4 - 24 thursday discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 4 - 29 tuesday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 4 - 29 tuesday lecture +=+=+=+=+=+=+=+=
