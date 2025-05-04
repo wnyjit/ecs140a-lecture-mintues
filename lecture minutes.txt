@@ -208,5 +208,54 @@ Delay or force evalutation: eval, apply, funcall - 20
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 4 - 29 tuesday lecture +=+=+=+=+=+=+=+=
+cotinuing example from last week - 3
+	apply vs funcall - 3
+		"if your more comfortable with one then just use it" - 12
 
+anonymous functions / lamdba functions - 14
+
+high-order functions - 22
+	maplist - 39
+	reduce - 45
+	think about prefix function when doing match in the hw - 48
+
+dot product example - 49
+
+how to use trace function - 59
+
+closures - 1.05
+	even generation example - 1.11
 +=+=+=+=+=+=+=+= 4 - 29 tuesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 5 - 1 thursday lecture +=+=+=+=+=+=+=+=
+closures recap - 3
+	even generator - 3
+
+timestamps example - 14
+
+translation in go - 26
+
+what will be on the midterm - 34
+	you are allowed notes - 39
+	bring some form of ID - 46
+
+prolog prolog prolog prolog pro log - 49
+	building blocks: constants, variables, compound terms - 51
+	facts - 56
+	parent example - 57
+	rules - 1.10
++=+=+=+=+=+=+=+= 5 - 1 thursday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 5 - 1 thursday discussion +=+=+=+=+=+=+=+=
+no one shows to class lol rip
+hw1 covering - 3
+	q1,q2 are not covered - 3
+	q4 depth - 4
+	q5 simplify - 6
+	q6 branch - 12
+	q7 rewrite - 14
+	q3 nfa - 20
++=+=+=+=+=+=+=+= 5 - 1 thursday discussion +=+=+=+=+=+=+=+=
