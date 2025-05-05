@@ -13,7 +13,7 @@ intro to programming languages - 25
 		lexical analysis - 1.15
 		parsing / syntactic analysis - 1.17
 +=+=+=+=+=+=+=+= 4 - 1 tuesday lecture +=+=+=+=+=+=+=+=
- 
+
 ================================================================================================================================
 ================================================================================================================================
 
@@ -124,11 +124,19 @@ type equivalence - 7
 
 parsing - 34
 	top down parsing - 34
-		recursive - 42
-		predictive - 43
-			ll(1) - 47
+		names of new notations, E, T, F, epsilon, terminal, id - 37
+		example - 37
+		recursive descent parsing - 42
+		predictive parser - 46
+			LL(1) - 47
 			recursive descent parsing - 53
-			FIRST sets - 1.00
+					what makes a valid tree and example of invalid - 58
+			FIRST sets,,,, how making parse table - 1.00
+				how to handle terminal, nonterminal, epsilon - 1.02
+				example building - 1.04
+			FOLLOW sets - 1.15
+				$, A, alpha, B, beta - 1.16
+				epsilon handling - 1.21
 +=+=+=+=+=+=+=+= 4 - 17 thursday lecture +=+=+=+=+=+=+=+=
 
 +=+=+=+=+=+=+=+= 4 - 17 thursday discussion +=+=+=+=+=+=+=+=
@@ -157,7 +165,8 @@ continuing parsing - 3
 		what parser to go parser uses - 49
 
 	left recursion - 50
-		example , eliminating immediate left recursion - 51
+		left recursion cannot compute first sets - 50
+		eliminating immediate left recursion - 51
 
 lisp lisp lisp lisp lisp lisp lisp - 1.02
 	lisp background of lisp - 1.02
