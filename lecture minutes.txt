@@ -210,20 +210,31 @@ let * construct - 12
 practice exercise - 16
 
 Delay or force evalutation: eval, apply, funcall - 20
-	apply & funcall - 43
+	eval example 1 - 24
+		"eval only goes one step forward" - 30
+	eval example 2 - 35
+	apply & funcall and their syntax - 43
+		example - 47
 +=+=+=+=+=+=+=+= 4 - 24 thursday discussion +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 4 - 29 tuesday lecture +=+=+=+=+=+=+=+=
-cotinuing example from last week - 3
-	apply vs funcall - 3
-		"if your more comfortable with one then just use it" - 12
+cotinuing apply & funcall example from last week - 3
+		when to use funcall or apply - 12
+			"if your more comfortable with one then just use it" - 13
 
 anonymous functions / lamdba functions - 14
+	lambda and funcall,,, dont actually need funcall - 17
+		but they do sometimes - 19
+	lamda and apply - 21
 
 high-order functions - 22
+	mapcar (great for matrix) - 23
+		"its doing the looping for you" - 27
+		mapcar & lambda - 29
+		# poundsign syntax - 31
 	maplist - 39
 	reduce - 45
 	think about prefix function when doing match in the hw - 48
