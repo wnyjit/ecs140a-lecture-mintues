@@ -231,7 +231,7 @@ anonymous functions / lamdba functions - 14
 	lamda and apply - 21
 
 high-order functions - 22
-	mapcar (great for matrix) - 23
+	mapcar (Great for matrix) - 23
 		"its doing the looping for you" - 27
 		mapcar & lambda - 29
 		# poundsign syntax - 31
@@ -279,3 +279,51 @@ hw1 covering - 3
 	q7 rewrite - 14
 	q3 nfa - 20
 +=+=+=+=+=+=+=+= 5 - 1 thursday discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 5 - 6 lecture +=+=+=+=+=+=+=+=
+prolog continued - 3
+	rules, terms, conditions, fact - 4 
+	goals/queries - 5
+		underscores/_ - 7
+	unification - 8
+		when it occurs - 10
+	how prolog is evaluated - 15
+		example 1 on goals - 16
+			drawing out steps on board - 19
+			coding - 35
+	using trace in prolog - 1.05
+	lists - 1.12
+		unifying lists - 1.17
++=+=+=+=+=+=+=+= 5 - 6 lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 5 - 8 lecture +=+=+=+=+=+=+=+=
+prolog continued - 4
+	unifying lists continued - 4
+	append - 8
+		code for append - 16
+	reverse - 29
+		code for reverse - 30
+	recreating reverse? - 42
+	recreating append? - 51
+	other predicates - 1.02
+	arithmatic in prolog - 1.05
+	numeric comparisons - 1.12
++=+=+=+=+=+=+=+= 5 - 8 lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 5 - 8 discussion +=+=+=+=+=+=+=+=
+lisp hw covering - 3
+	q1 mmm - 3
+	q2 qsort - 6
+	q3 match - 10
+	q4 nfa - 17
+	q5 matrix - 22
++=+=+=+=+=+=+=+= 5 - 8 discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
