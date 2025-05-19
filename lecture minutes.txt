@@ -30,11 +30,13 @@ context free grammars CFG - 26
 
 derivations - 35
 	parse tree,, graphical representationof derivation process - 45
-	examples - 
+	example 1 - 45
+	example 2 - 50
+		does the string exist in the language? - 55
 
 backus-naur form BNF - 1.01
 	grammar for arithmetic expressions - 1.03
-		example - 1.13
+		example - 1.12
 +=+=+=+=+=+=+=+= 4 - 3 thursday lecture +=+=+=+=+=+=+=+=
 
 +=+=+=+=+=+=+=+= 4 - 3 thursday discussion +=+=+=+=+=+=+=+=
@@ -290,7 +292,7 @@ prolog continued - 3
 		underscores/_ - 7
 	unification - 8
 		when it occurs - 10
-	how prolog is evaluated - 15
+	how prolog is evaluated,,, control - 15
 		example 1 on goals - 16
 			drawing out steps on board - 19
 			coding - 35
@@ -312,6 +314,7 @@ prolog continued - 4
 	recreating reverse? - 42
 	recreating append? - 51
 	other predicates - 1.02
+		append, member, length, reverse, select - 1.02
 	arithmatic in prolog - 1.05
 	numeric comparisons - 1.12
 +=+=+=+=+=+=+=+= 5 - 8 lecture +=+=+=+=+=+=+=+=
@@ -324,6 +327,42 @@ lisp hw covering - 3
 	q4 nfa - 17
 	q5 matrix - 22
 +=+=+=+=+=+=+=+= 5 - 8 discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 5 - 13 lecture +=+=+=+=+=+=+=+=
+prefix suffix - 6
+
+how does search work example 1 - 7
+how does search work example 2 - 8
+how does search work example 2 - 25
+
+order of goals and rules - 32
+
+length of list - 40
+
+cuts - 48
+	green cut red cut - 50
+	green cut example - 52
+	red cut example - 57
+	example - 1.08
++=+=+=+=+=+=+=+= 5 - 13 lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 5 - 15 lecture +=+=+=+=+=+=+=+=
+the only professor who doesnt realease the recording of us taking the test :(
++=+=+=+=+=+=+=+= 5 - 15 lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 5 - 15 discussion +=+=+=+=+=+=+=+=
+practice exercise 1,,, factorial - 6
+practice exercise 2,,, fibonaci - 12
+practice exercise 3,,, quicksort - 17
+	example 1 - 22
+practice exercise 4,,, prefix suffix - 26
++=+=+=+=+=+=+=+= 5 - 15 discussion +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
