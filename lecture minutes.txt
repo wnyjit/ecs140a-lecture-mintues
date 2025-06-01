@@ -285,7 +285,7 @@ hw1 covering - 3
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 5 - 6 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 6 tuesday lecture +=+=+=+=+=+=+=+=
 prolog continued - 3
 	rules, terms, conditions, fact - 4 
 	goals/queries - 5
@@ -299,12 +299,12 @@ prolog continued - 3
 	using trace in prolog - 1.05
 	lists - 1.12
 		unifying lists - 1.17
-+=+=+=+=+=+=+=+= 5 - 6 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 6 tuesday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 5 - 8 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 8 thursday lecture +=+=+=+=+=+=+=+=
 prolog continued - 4
 	unifying lists continued - 4
 	append - 8
@@ -317,21 +317,21 @@ prolog continued - 4
 		append, member, length, reverse, select - 1.02
 	arithmatic in prolog - 1.05
 	numeric comparisons - 1.12
-+=+=+=+=+=+=+=+= 5 - 8 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 8 thursday lecture +=+=+=+=+=+=+=+=
 
-+=+=+=+=+=+=+=+= 5 - 8 discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 8 thursday discussion +=+=+=+=+=+=+=+=
 lisp hw covering - 3
 	q1 mmm - 3
 	q2 qsort - 6
 	q3 match - 10
 	q4 nfa - 17
 	q5 matrix - 22
-+=+=+=+=+=+=+=+= 5 - 8 discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 8 thursday discussion +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 5 - 13 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 13 tuesday lecture +=+=+=+=+=+=+=+=
 prefix suffix - 6
 
 how does search work example 1 - 7
@@ -347,64 +347,90 @@ cuts - 48
 	green cut example - 52
 	red cut example - 57
 	example - 1.08
-+=+=+=+=+=+=+=+= 5 - 13 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 13 tuesday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 5 - 15 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 15 thursday lecture +=+=+=+=+=+=+=+=
 the only professor who doesnt realease the recording of us taking the test :(
-+=+=+=+=+=+=+=+= 5 - 15 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 15 thursday lecture +=+=+=+=+=+=+=+=
 
-+=+=+=+=+=+=+=+= 5 - 15 discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 15 thursday discussion +=+=+=+=+=+=+=+=
 practice exercise 1,,, factorial - 6
 practice exercise 2,,, fibonaci - 12
 practice exercise 3,,, quicksort - 17	
 	example 1 - 22
 practice exercise 4,,, prefix suffix - 26
-+=+=+=+=+=+=+=+= 5 - 15 discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 15 thursday discussion +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 5 - 20 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 20 tuesday lecture +=+=+=+=+=+=+=+=
 concurrency in go - 5
 	go routine - 5
-	go statement - 10
-	example 1 - 13
+		example 1 - 13
+			"we have no control over which is faster" - 21
 
 	wait group - 23
-	example 2 - 26
+		example 1 - 26
+			why we pass by reference instead of value - 28
+			"we dont which which one finished first" - 31
+			deadlocks,,, what happens under/overestimating size of waitgroup - 32
 
 	channels - 38
+		opening a channel - 38
 		closing a channel - 43
-		unbuffer channel - 47
-	example 3 - 51
-	example 4 - 1.07
-+=+=+=+=+=+=+=+= 5 - 20 lecture +=+=+=+=+=+=+=+=
+			asking to recieve from a closed channel - 44
+			how to tell if you recieve from a closed channel - 46
+		channel sizes,,, unbuffered vs buffered channel - 47
+		example 1 - 51
+			anonymous go routine - 51
+			"what if there are two writing to the channel?" - 56
+			deadlock, "what if the you write an empty message?" - 58
+			"you need a reciever and a sender!" - 59
+			more recievers than messages - 1.02
+		example 2 - 1.07
+			"no difference between pass-by-value/reference with channels" - 1.08
+				quick recap on slices - 1.11
+	WeightGroup example 2 - 1.17
++=+=+=+=+=+=+=+= 5 - 20 tuesday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 5 - 22 lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 22 thursday lecture +=+=+=+=+=+=+=+=
 continuing channels - 3
 	buffered channel - 3
-	example 1 - 8
+		example 1 - 8
+			"it will wait until there is something to recieve" - 12
+		example 2 - 18
+			where using unbuffered will fail - 22
+			adding to full buffered channel - 25
 
-	range over channels - 32
-	example 2 - 34
+	range over channels,,, print out all from a buffered channel - 32
+		example 1 - 34
+			cap vs len functions - 36
+			"you can also do it with forloop" - 39
+			how to tell if channel is empty - 42
+			overfilling full buffer allowed now? - 46
+			making it unbuffered - 48
 
 	select statements - 51
-	example 3 - 52
-	example 4 - 1.04
-	example 5 - 1.09
+		example 1 - 52
+		example 2 - 1.03
+		default case,,, example 3 - 1.09
+			"one of your cases have to return eventually" - 1.12
+		example 4 - 1.14
 
-	mutual exclusion - 1.18
+	mutual exclusion / mutex,,, only 1 edit at a time - 1.18
 
-	midterm will be split up - 1.20
-+=+=+=+=+=+=+=+= 5 - 22 lecture +=+=+=+=+=+=+=+=
+	midterm coverage will be split up - 1.20
+	final is cummulative - 1.21
++=+=+=+=+=+=+=+= 5 - 22 thursday lecture +=+=+=+=+=+=+=+=
 
-+=+=+=+=+=+=+=+= 5 - 22 discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 22 thursday discussion +=+=+=+=+=+=+=+=
 Midterm questions - 3
 	q1 - 3
 		a - 3
@@ -426,7 +452,84 @@ Midterm questions - 3
 		b - 36
 		c - 38
 		d - 41
-+=+=+=+=+=+=+=+= 5 - 22 discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 5 - 22 thursday discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 5 - 27 tuesday lecture +=+=+=+=+=+=+=+=
+mutual exclusion / mutex - 3
+	example 1, safe counter - 4
+		"never make mutex local" - 6
+			pass it by value - 7
+		using defer - 11
+		using a local value instead - 12
+		"never make mutex local 2" - 16
+
+data race - 20
+	how to avoid data races,,, mutex,channel,goroutine - 21
+	bank example - 24
+			non-atomic non atomic,,, multiple actions under the hood - 29
+		fixing using mutex - 34
+			how to do it without defer - 34
+		fixing using channel - 37
+			"watch the size" - 39
+		fixing using monitor/goroutine & select - 41
+
+	memo example - 46
+		optimizing - 55
+		optimizing with channels - 58
+	
+		"we dont care about performance, just make sure its not sequential" - 1.08
+
+	detecting data races in code - 1.08
+		example 1 - 1.09
+		example 2 - 1.13
+			fixing using mutex - 1.15
+	
+	data races not the end of the world - 1.18
+
+her job and research is to find bugs, cool - 1.19
++=+=+=+=+=+=+=+= 5 - 27 tuesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 5 - 29 thursday lecture +=+=+=+=+=+=+=+=
+two ways to catch data races, pros and cons- 3
+	static program analysis,,, not running the code - 5
+	dynamic analysis,,, running the code - 6
+
+types of dynamic race detection - 9
+	happens-before anaylsis - 10
+		what does it mean for one to happen before the other - 11
+		formal definition of data race - 14
+		example 1 - 15
+			how to add "h" - 18
+		example 2,, mutex - 21
+		example 3,, channel - 27
+		example 4 - 29
+			"why is this a data race?" - 35
+			what its like on the test - 36
+				false negative - 39
+			example 5 - 41
+	lockset analysis - 47
+		the algorithm - 48
+		example 1,,, drawing out lockset analysis - 51
+		example 2 - 1.01
+		example 3,,, channels - 1.16
+
+reference articles - 1.18
+
+no new material! - 1.20
++=+=+=+=+=+=+=+= 5 - 29 thursday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 5 - 29 thursday discussion +=+=+=+=+=+=+=+=
+homework 3 solution - 3
+	q1 - 3
+	q2 - 9
+	q3 - 20
++=+=+=+=+=+=+=+= 5 - 29 thursday discussion +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
