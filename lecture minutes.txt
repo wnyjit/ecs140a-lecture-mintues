@@ -29,7 +29,7 @@ context free grammars CFG - 26
 		examples - 28
 
 derivations - 35
-	parse tree,, graphical representationof derivation process - 45
+	parse tree,, graphical representation of derivation process - 45
 	example 1 - 45
 	example 2 - 50
 		does the string exist in the language? - 55
@@ -74,7 +74,7 @@ interfaces - 55
 		interface - 1.02
 		empty interface - 1.09
 
-type extensions - 1.12
+type assertions - 1.12
 type switches - 1.18
 +=+=+=+=+=+=+=+= 4 - 10 thursday lecture +=+=+=+=+=+=+=+=
 
@@ -117,12 +117,14 @@ type embeds - 1.04
 benefits of types - 3
 type equivalence - 7
 	structural equivalence - 8
-	name equivalence - 11
+	name equivalence (how go does it) - 11
 		explicit casting - 14
 
 	type checking - 15
 		static / compile time check - 16
 		runtime / dynamic check - 16
+	type errors - 23
+	type annotations vs type inference - 27
 
 parsing - 34
 	top down parsing - 34
@@ -164,7 +166,7 @@ continuing parsing - 3
 	not all grammars are LL(1) - 46
 
 	optional readings,, most material is from this book - 49
-		what parser to go parser uses - 49
+		what parser to go parser uses (reverse descent) - 49
 
 	left recursion - 50
 		left recursion cannot compute first sets - 50
@@ -180,6 +182,7 @@ lisp lisp lisp lisp lisp lisp lisp - 1.02
 		why you shouldnt use setq on the hw - 1.11
 		list lengths and equality - 1.18
 		quote - 1.21
+	lisp is NOT CASE SENSITIVE - 1.21
 +=+=+=+=+=+=+=+= 4 - 22 tuesday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
@@ -394,7 +397,7 @@ concurrency in go - 5
 		example 2 - 1.07
 			"no difference between pass-by-value/reference with channels" - 1.08
 				quick recap on slices - 1.11
-	WeightGroup example 2 - 1.17
+	waitGroup example 2 - 1.17
 +=+=+=+=+=+=+=+= 5 - 20 tuesday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
@@ -535,7 +538,6 @@ homework 3 solution - 3
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 6 - 3 tuesday lecture +=+=+=+=+=+=+=+=
-I will fix it later sorry
 Midterm questions set 2 - 3
 	q6 -3
 		v1 - 3
@@ -599,7 +601,7 @@ homework4 covering - 43
 +=+=+=+=+=+=+=+= 6 - 5 thursday lecture +=+=+=+=+=+=+=+=
 
 +=+=+=+=+=+=+=+= 6 - 5 thursday discussion +=+=+=+=+=+=+=+=
-none
+none done :)
 +=+=+=+=+=+=+=+= 6 - 5 thursday discussion +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
